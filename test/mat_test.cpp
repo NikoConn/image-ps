@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "mat.h"
+#include "image/mat.h"
 
 // Test fixture for Mat<int>
 class MatIntTest : public ::testing::Test {

@@ -1,11 +1,11 @@
 set(IMAGE_SOURCES
-    mat.cpp
-    operations.cpp
+    image/mat.cpp
+    image/operations.cpp
 )
 
 set(IMAGE_HEADERS
-    mat.h
-    operations.h
+    image/mat.h
+    image/operations.h
 )
 
 add_library(image ${IMAGE_SOURCES} ${IMAGE_HEADERS})

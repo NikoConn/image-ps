@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
-#include "mat.h"
-#include "operations.h"
+#include "image/mat.h"
+#include "image/operations.h"
 
 // Define a fixture for the tests
 class OperationsTest : public ::testing::Test {

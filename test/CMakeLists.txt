@@ -14,9 +14,9 @@ set(TEST_SOURCES
 )
 
 # Test executable
-add_executable(tests ${TEST_SOURCES})
+add_executable(image-tests ${TEST_SOURCES})
 
-target_include_directories(tests PRIVATE ${CMAKE_SOURCE_DIR})
+target_include_directories(image-tests PRIVATE ${CMAKE_SOURCE_DIR})
 
 # Link Google Test to the test executable
-target_link_libraries(tests gtest gtest_main image)
+target_link_libraries(image-tests gtest gtest_main image)
